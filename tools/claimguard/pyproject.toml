@@ -1,0 +1,18 @@
+[project]
+name = "claimguard"
+version = "0.1.0"
+description = "Catch agent claims your tool logs don't back up."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Ahmad Ali Parr" }]
+
+[project.scripts]
+claimguard = "claimguard.cli:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,9 @@
+build/
+*.o
+*.a
+*.so
+*.dylib
+*.metallib
+__pycache__/
+ffi/rust/target/
+.DS_Store
